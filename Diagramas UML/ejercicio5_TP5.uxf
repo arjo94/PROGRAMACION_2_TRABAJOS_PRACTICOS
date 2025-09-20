@@ -1,0 +1,19 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>20</x><y>260</y><w>160</w><h>110</h></coordinates><panel_attributes>Computadora
+--
+marca: String
+numeroSerie: String
+--
+- placaMadre: PlacaMadre
+- propietario: Propietario</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>430</y><w>110</w><h>80</h></coordinates><panel_attributes>PlacaMadre
+--
+modelo: String
+chispet: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>280</y><w>110</w><h>70</h></coordinates><panel_attributes>Propietario
+--
+nombre: String
+dni: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>360</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>300</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+
+m2=1
+</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element></diagram>
